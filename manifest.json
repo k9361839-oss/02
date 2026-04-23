@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "מה זה? - מילון חכם",
+  "version": "3.0",
+  "description": "הסבר מהיר על מושגים מהמכלול, ויקיפדיה ומאגר AI מקומי",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.hamichlol.org.il/*",
+    "https://he.wikipedia.org/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
